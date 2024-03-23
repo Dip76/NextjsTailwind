@@ -8,7 +8,7 @@ import { IoShareSocialOutline } from "react-icons/io5";
 import { FaRegEye } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
 
-const page = () => {
+const HomeScreen = () => {
   const [showSideBar, setShowSideBar] = useState(false);
   const [activeTab, setActiveTab] = useState("forums");
   const [forums, setForums] = useState([
@@ -260,9 +260,8 @@ const page = () => {
 
         <div className={`hidden sm:flex ${showSideBar && "sm:ml-64"}`}>
           <button className="text-black " onClick={handlesideBar}>
-            {showSideBar ? <LiaLessThanSolid /> : <LiaGreaterThanSolid />}
+            {showSideBar ? <LiaLessThanSolid size={50} /> : <LiaGreaterThanSolid size={50} />}
           </button>
-          <span className="w-0.5">see more</span>
         </div>
 
         <div className="p-4 sm:ml-1 grow">
@@ -403,4 +402,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HomeScreen;
