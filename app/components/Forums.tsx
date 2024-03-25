@@ -19,7 +19,7 @@ const Forums = ({ activeTab, forums }: Props) => {
       }`}
       style={{ flex: 0.75 }}
     >
-      <h1 className="text-2xl font-bold tracking-tight"> Forumes </h1>
+      <h1 className="text-2xl font-bold tracking-tight mt-4"> Forumes </h1>
       {forums.length &&
         forums.map((item: any, index: number) => {
           return (

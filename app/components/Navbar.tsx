@@ -10,14 +10,14 @@ const Navbar = ({ handleTabClick, handlesideBar }: Props) => {
     <nav className="bg-white border-gray-200 dark:bg-gray-900 sm:hidden">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <div
-          className="block py-2 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+          className="block py-2 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
           aria-current="page"
           onClick={() => handleTabClick("forums")}
         >
           Forums
         </div>
         <div
-          className="block py-2 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+          className="block py-2 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
           aria-current="page"
           onClick={() => handleTabClick("marketStories")}
         >

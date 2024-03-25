@@ -16,15 +16,15 @@ const SideBar = ({ showSideBar }: Props) => {
     >
       <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 text-white">
+          <div className="flex items-center gap-2 dark:text-white">
             <CgProfile size={35} />
             <span className="ms-3">Hello, User</span>
           </div>
-          <div className="text-white">
+          <div className="dark:text-white">
             <FaBell />
           </div>
         </div>
-        <hr className="text-white my-5" />
+        <hr className="dark:text-white my-5" />
         <ul className="space-y-2 font-medium">
           <li>
             <a

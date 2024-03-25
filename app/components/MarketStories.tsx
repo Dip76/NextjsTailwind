@@ -11,7 +11,7 @@ const MarketStories = ({ activeTab, marketStories }: Props) => {
       className={` ${activeTab == "marketStories" ? "" : "hidden sm:flex"}`}
       style={{ flex: 0.25 }}
     >
-      <div className="flex flex-col gap-10 flex-wrap">
+      <div className="flex flex-col gap-10 flex-wrap mt-4">
         <h5 className="text-2xl font-bold tracking-tight"> Market Stories </h5>
 
         {marketStories.length &&
